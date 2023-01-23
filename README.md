@@ -14,8 +14,8 @@ you need pygame and pyknon packages for this project
 "python main.py"
 
 
-instrument numbers :
-
+# instruments
+<pre>you can see the midi instruments code here</pre>
 # Piano
         'Acoustic Grand Piano': '1', 'Bright Acoustic Piano': '2', 'Electric Grand Piano': '3',
         'Honky-tonk Piano': '4',
