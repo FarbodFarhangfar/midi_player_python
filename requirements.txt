@@ -1,4 +1,1 @@
-midi2audio
-tkinter
-pygame
-pyknon
+

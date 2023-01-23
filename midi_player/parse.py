@@ -1,10 +1,14 @@
-from config import get_note_dic, get_value_list
+from .config import NoteDic, TimeValues
 
 
 class Parse:
+    def __init__(self):
+        pass
+
     def get_notes(self, note_str):
         note_list = note_str.split()
-        note_dic = get_note_dic()
+        note_dict = NoteDic()
+        note_dic = note_dict.get_note_dic()
         r_note_list = []
         for notes in note_list:
             if notes[-1].isdigit():
@@ -22,7 +26,8 @@ class Parse:
 
     def get_dur(self, dur_str):
         dur_list = dur_str.split()
-        dur_dic = get_value_list()
+        dur_dic = TimeValues()
+        dur_dic = dur_dic.get_value_list()
         r_dur_list = []
         for notes in dur_list:
             if notes not in dur_dic:
@@ -31,3 +36,6 @@ class Parse:
                 r_dur_list.append(dur_dic[notes])
 
         return r_dur_list
+
+
+

@@ -1,10 +1,5 @@
-from midi import play_midi
-from parse import Parse
-
-
-
-
-
+from midi_player.parse import Parse
+from midi_player import midi
 
 if __name__ == "__main__":
     name = input("file_name\n")
@@ -17,4 +12,4 @@ if __name__ == "__main__":
     duration = input("insert note values\n")
     duration = parser.get_dur(duration)
 
-    play = play_midi(name, notes, duration, tempo, instruments)
+    play = midi.play_midi(name, notes, duration, tempo, instruments)
