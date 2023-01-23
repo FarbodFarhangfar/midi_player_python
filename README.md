@@ -10,6 +10,9 @@ the file "music_player.py" is an API for any platform that needs a music player 
 run init.py file
 you need pygame and pyknon packages for this project
 
+Run by 
+python main.py
+
 
 instrument numbers :
 
