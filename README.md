@@ -7,6 +7,8 @@ you can add new graphical with tkinter
 
 the file "music_player.py" is an API for any platform that needs a music player in Python
 
+# future work
+making into a Rest API
 
 # Run
 "python main.py"
